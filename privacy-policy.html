@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MarkBridge 隐私政策</title>
+<style>
+  :root { color-scheme: light; font: 16px/1.75 system-ui, "Microsoft YaHei", sans-serif; color: #24221e; background: #f4efe5; }
+  body { margin: 0; }
+  main { max-width: 760px; margin: 48px auto; padding: 44px 52px; background: #fffdf8; border: 3px solid #11110f; border-radius: 24px; box-shadow: 9px 9px 0 #11110f; }
+  h1 { margin-top: 0; font-size: 34px; padding-bottom: 18px; border-bottom: 3px solid #11110f; }
+  h2 { margin-top: 30px; font-size: 21px; }
+  .date { display: inline-block; color: #11110f; background: #ffd83d; border: 2px solid #11110f; border-radius: 999px; padding: 3px 10px; font-weight: 700; }
+  li { margin: 8px 0; }
+  @media (max-width: 760px) { main { margin: 0; padding: 28px 22px; border: 0; border-radius: 0; } }
+</style>
+<main>
+  <h1>MarkBridge 隐私政策</h1>
+  <p class="date">生效日期：2026 年 11 月 16 日</p>
+  <p>MarkBridge 的单一用途是预览并将用户当前打开的网页文档转换为 Markdown 或离线 ZIP；在用户选择时，以原链接、Base64 或本地 assets 方式处理图片，并为复杂表格生成离线阅读文件。</p>
+  <h2>数据处理</h2>
+  <p>MarkBridge 仅在用户主动点击扩展图标后，临时读取当前标签页中与导出相关的页面正文、标题、链接、表格和图片。所有转换和打包均在用户的浏览器本地完成，导出结果直接保存到用户设备。</p>
+  <p>用户也可主动将本地 Markdown 文件拖入阅读器。开启 Chrome 的“允许访问文件网址”后，扩展会在用户打开本地 .md 文件时读取该文件并在本地阅读器中显示；文件内容不会上传给开发者。</p>
+  <h2>数据处理范围与共享</h2>
+  <p>MarkBridge 会在用户主动导出时于设备本地处理网站内容（包括正文、标题、链接、表格和图片）以及当前页面地址。页面地址仅用于解析链接，并可能写入仅供用户本地查看的导出说明。MarkBridge 不会在开发者或第三方服务器收集、存储、出售或处理这些内容，也不会向此类服务器传输用户的页面内容、浏览记录、身份信息或导出文件。扩展不包含广告、分析服务、跟踪器、账户系统或后台服务器。</p>
+  <p>为了保存页面中的图片，扩展可能从图片原始地址发起请求；该请求由用户的浏览器直接发送到图片所在站点，并可能携带当前站点已有的登录凭据。图片数据只用于生成本次本地导出文件。</p>
+  <h2>权限用途</h2>
+  <ul>
+    <li><code>activeTab</code>：在用户主动点击扩展图标后，临时访问当前标签页，以读取需要导出的内容。</li>
+    <li><code>scripting</code>：在当前标签页中运行随扩展打包的导出脚本。扩展不会下载或执行远程代码。</li>
+  </ul>
+  <h2>数据保留与安全</h2>
+  <p>由于 MarkBridge 不把用户数据发送到开发者服务器，因此开发者不会保留用户数据。下载后的文件由用户自行控制和管理。</p>
+  <h2>儿童隐私</h2>
+  <p>MarkBridge 不以儿童为目标用户，也不会有意收集儿童的个人信息。</p>
+  <h2>政策变更</h2>
+  <p>如扩展的数据处理方式发生变化，本政策会在新版本发布前更新，并在适用情况下重新取得必要同意。</p>
+  <h2>Limited Use</h2>
+  <p>MarkBridge 对信息的使用遵守 Chrome Web Store 用户数据政策，包括 Limited Use 要求。网站内容和当前页面地址只用于提供用户明确发起的本地导出功能，不会用于广告、画像、信用评估、出售或任何与该单一用途无关的目的。</p>
+  <h2>联系方式</h2>
+  <p>隐私问题请通过 MarkBridge 商店详情页中显示的开发者联系或支持渠道提出。</p>
+</main>
+</html>
